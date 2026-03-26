@@ -1,4 +1,4 @@
-# 🦀 Rust Task Manager Pro
+## Rust Task Manager Pro
 **High-Performance CLI with Desktop Notifications**
 *Developed by Mildred Embeywa*
 
@@ -6,7 +6,7 @@ A cross-platform Task Management system built in Rust. This application features
 
 ---
 
-## 🚀 Features
+## Features
 - **Smart Reminders:** Integrated background thread monitors tasks and sends **System Desktop Popups** (Linux/Ubuntu/Windows).
 - **Persistent Storage:** Tasks are saved to `tasks.json` automatically—no data is lost on exit.
 - **Rich Interface:** Color-coded status updates and formatted data tables.
@@ -14,7 +14,7 @@ A cross-platform Task Management system built in Rust. This application features
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### For Linux & Ubuntu Users
 1. **Install Dependencies:**
@@ -23,11 +23,11 @@ A cross-platform Task Management system built in Rust. This application features
    sudo apt update && sudo apt install libdbus-1-dev pkg-config
 ```
 
-2.Build and Run:
+2.**Build and Run**:
 ```bash
 cargo run
 ```
-For Windows Users
+##For Windows Users
 Install Rust: Download the installer from rustup.rs.
 
 Run the App: Open PowerShell or Command Prompt in the project folder and type:
@@ -35,7 +35,7 @@ Run the App: Open PowerShell or Command Prompt in the project folder and type:
 cargo run
 ```
 
-For Visual Studio Code (All Platforms)
+##For Visual Studio Code (All Platforms)
 Open the project folder in VS Code.
 
 Install the Rust-Analyzer extension from the Marketplace.
@@ -44,7 +44,7 @@ Open src/main.rs and click the "Run" button that appears above the main function
 
 
 
-**Technical Deep Dive (For Reviewers)*
+##Technical Deep Dive (For Reviewers)
 This project was designed to demonstrate "Idiomatic Rust" and systems-level safety:
 
 Concurrency: Uses std::thread to run a background monitor without blocking the main UI.
@@ -55,7 +55,7 @@ Serialization: Uses the Serde framework to translate Rust structs into JSON form
 
 Memory Safety: Zero use of unsafe code or .unwrap(), ensuring the app handles errors gracefully rather than crashing.
 
-** Project Structure**
+## Project Structure
 src/main.rs: The core engine, data models, and UI logic.
 
 Cargo.toml: Project metadata and library dependencies.
