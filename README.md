@@ -27,7 +27,7 @@ A cross-platform Task Management system built in Rust. This application features
 ```bash
 cargo run
 ```
-##For Windows Users
+## For Windows Users
 Install Rust: Download the installer from rustup.rs.
 
 Run the App: Open PowerShell or Command Prompt in the project folder and type:
@@ -35,7 +35,7 @@ Run the App: Open PowerShell or Command Prompt in the project folder and type:
 cargo run
 ```
 
-##For Visual Studio Code (All Platforms)
+## For Visual Studio Code (All Platforms)
 Open the project folder in VS Code.
 
 Install the Rust-Analyzer extension from the Marketplace.
@@ -44,7 +44,7 @@ Open src/main.rs and click the "Run" button that appears above the main function
 
 
 
-##Technical Deep Dive (For Reviewers)
+## Technical Deep Dive (For Reviewers)
 This project was designed to demonstrate "Idiomatic Rust" and systems-level safety:
 
 Concurrency: Uses std::thread to run a background monitor without blocking the main UI.
